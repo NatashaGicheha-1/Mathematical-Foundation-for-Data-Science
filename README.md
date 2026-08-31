@@ -99,7 +99,7 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 | | Higher-Order Differential Equations | Dynamic systems analysis |
 | | Systems of Differential Equations | Dynamic processes |
 | | Dynamic System Modeling | Forecasting and simulations |
-| | Error Analysis | Model evaluation and computational accuracy |
+| **Numerical Analysis** | Error Analysis | Model evaluation and computational accuracy |
 | | Root Finding Methods | Optimization algorithms |
 | | Numerical Differentiation | Machine learning optimization |
 | | Numerical Integration | Statistical computations |
@@ -108,9 +108,9 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 
 ---
 
-**💡The mathematics you learn today becomes the insight you create tomorrow.💡**
-**Jīntiān xuéxí de shùxué, jiāng chéngwéi míngtiān chuàngzào de dòngchá.**
-**今天学习的数学，将成为明天创造的洞察。**
+* **💡The mathematics you learn today becomes the insight you create tomorrow.💡**
+  * **Jīntiān xuéxí de shùxué, jiāng chéngwéi míngtiān chuàngzào de dòngchá.**
+    * **今天学习的数学，将成为明天创造的洞察。**
 
 ---
 
