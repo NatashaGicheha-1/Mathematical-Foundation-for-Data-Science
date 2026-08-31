@@ -1,98 +1,198 @@
-# Differential Equations for Data Science and Analytics
-# Project Goal
-* This repository explores how Differential Equations can be applied to real-world business, scientific, and data analytics problems.
-* The goal is to bridge the gap between mathematical theory learned in class and practical applications in data science projects.
-* Through case studies, simulations, and analytical projects, I investigate how differential equations can model change, predict future behavior, and support data-driven decision-making.
+# From Equations to Insights: Mathematical Foundations for Data Science & Analytics
+        * Cóng Fāngchéng Dào Dòngchá: Shùjù Kēxué Yǔ Shùjù Fēnxī De Shùxué Jīchǔ
+      * 从方程到洞察：数据科学与数据分析的数学基础
 
-  -------------
-# Reason for Creating the Repository
-* Differential Equations was the 2nd hardest Math course I have encountered in my Data Science and Analytics Course.
-* I want to find out how I can use in the real world to solve problems and analyse data.
+* A curated repository documenting my mathematical journey and demonstrating how mathematical concepts form the foundation of Data Science, Analytics, Machine Learning, and Artificial Intelligence.
 
-------------
-# Business Understanding
-* Differential equations describe how quantities change over time.
-* Many real-world systems involve continuous change, making differential equations useful in:
-  * Population growth and forecasting.
-  * Disease spread modelling.
-  * Financial forecasting.
-  * Chemical reactions.
-  * Machine learning optimization.
-  * Traffic flow analysis.
-  * Environmental monitoring.
-  * Customer growth and churn prediction.
-* As a Data Science and Analytics student, I want to understand how these mathematical concepts can be combined with programming, statistics, and machine learning to solve practical problems.
-    
-  ----------------------
- # Learning Objectives
-* By completing this repository, I aim to:
-  * Strengthen my understanding of Differential Equations.
-  * Learn how mathematical models are built from real-world phenomena.
-  * Implement differential equation models using Python.
-  * Visualize solutions using data analysis tools.
-  * Connect mathematical theory with existing data science projects. 
+## 📖 Overview
 
-  -------------
-# Topics learnt in MTH1050 Class
-1. Recap of Basics on Differentiation and Integration.
-   |Differentiation|Integration|
-   |--------------|------------|
-   |Power Rule.|Power Rule.|
-   |Quotient Rule.|Exponential|
-   |Product Rule.|Substitution|
-   |Chain Rule.|By Parts.|
-   
-2. Introduction to Differential Equations:
-     * Classification of Differential Equations:
-        * Type - Ordinary Differential Equations and Partial Differential Equations.
-        * Order - **Highest Derivative** Present in the Differential Equation.
-        * Degree - **Power** of the Highest Derivative Present in the. Differential Equation.
+Data Science is built on mathematics. Behind every predictive model, optimization algorithm, and analytical insight lies a set of mathematical principles that make these technologies possible.
 
-3. Solutions to Differential Equations:
-      * Particular - any one solution.
-      * General - set of all solutions.
-  * Conditions to Differential Equations:
-    * Initial - Constrains that are specified at the initial point, generally time(same). Problems with specified initial conditions are called initial value problems.
-    * Boundary - Constrains that are specified at the boundary points, generally space points. Problems with specified boundary conditions are called boundary value problems.
-          
-4. Methods of Solving **1st Order Differential Equations:**
-      * Separation of variables.
-5. Solving Linear Equations
-6. Homogeneous Equations
-7. Linear fractional Equations.
-8. Bernoulli's Equations
-9. Exact Equations
+This repository serves as both a learning portfolio and a knowledge base, documenting the mathematical courses I have taken, the concepts I have learned, and how those concepts are applied in Data Science and Analytics.
 
-   -------------
-## 2nd Order Differential Equations.
-10. Solution of Linear Differential Equations of 2nd order with constant coefficients:
-  * x and y are missing in the equation/y only is missing.
-  * x only is missing.
-    
-11. Solutions to Homogeneous Quadratic Equations.
-      * Unique solutions.
-      * Complex number.
-      * Repeated root.
-12. Methods of solving of Non homogeneous 2nd Order Differential Equations:
-     * Method of undetermined coefficients.
-     * Variation of parameters.
-     * Legendre's Linear Equation.
-     * Frobenius Method.
-     * Power series method
+---
 
-# Applications of Differential Equations
-* Chemical reactions.
-* Population growth.
+ * **Data tells us what happened. Mathematics helps us understand why.**
+   * **Shùjù gàosù wǒmen fāshēng le shénme. Shùxué bāngzhù wǒmen lǐjiě wèishénme.**
+     * **数据告诉我们发生了什么。数学帮助我们理解为什么。**
 
-# How I have used Differential Equations to Improve my Repositories
-|Repository|Improvement|
-|----------|-----------|
-|Mau Forest Data Analysis||
-|Movie Recommendation System||
-|License Plate Recognition System||
-|Learning Chinese||
+ --------
+## 🎯 Objectives
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8c18e2ac-579b-4c72-8372-82452be8dd32" />
 
-# Key Takeaway
-* Differential Equations are not just mathematical formulas.
-* They provide a framework for modeling change, understanding dynamic systems, and making predictions from data.
-* This repository documents my journey from learning the theory of Differential Equations to applying them in Data Science and Analytics.
+- Document my mathematical learning journey.
+- Strengthen my theoretical foundation in Data Science and Analytics.
+- Connect mathematical concepts to real-world applications.
+- Build intuition for machine learning and analytical methods.
+- Create a reference repository for continuous learning and revision.
+
+---
+
+## 📚 Mathematical Areas Covered
+
+| Course | Description | Why It Matters in Data Science |
+|----------|------------|-------------------------------|
+| **College Algebra** | Functions, equations, logarithms, and mathematical modeling | Provides the foundation for understanding relationships between variables and building predictive models |
+| **Linear Algebra** | Vectors, matrices, eigenvalues, and vector spaces | Forms the backbone of machine learning, deep learning, and data representation |
+| **Discrete Mathematics** | Logic, sets, combinatorics, and graph theory | Supports algorithms, databases, networks, and computational thinking |
+| **Calculus** | Limits, derivatives, integrals, and multivariable calculus | Enables optimization techniques used to train machine learning models |
+| **Differential Equations** | Mathematical modeling of dynamic systems | Useful for forecasting, simulations, and time-dependent phenomena |
+| **Numerical Analysis** | Computational methods for solving mathematical problems | Provides efficient techniques for large-scale computation and optimization |
+
+---
+
+## 🔗 Mathematics to Data Science Mapping
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/960c3026-9cfe-4789-bc9e-0664c3afc73b" />
+
+
+| Mathematical Topic | Data Science & Analytics Application |
+|-------------------|--------------------------------------|
+| Functions | Modeling relationships between variables |
+| Logarithmic Functions | Data transformation and normalization |
+| Systems of Equations | Optimization and parameter estimation |
+| Vectors | Feature representation and embeddings |
+| Matrices | Dataset manipulation and machine learning computations |
+| Eigenvalues & Eigenvectors | Principal Component Analysis (PCA) |
+| Logic | Algorithm design and decision-making systems |
+| Graph Theory | Network analysis and recommendation systems |
+| Combinatorics | Probability and feature selection |
+| Derivatives | Gradient Descent |
+| Partial Derivatives | Neural Network Backpropagation |
+| Integration | Probability distributions and statistical modeling |
+| Differential Equations | Dynamic systems and time-series forecasting |
+| Numerical Methods | Efficient computation and model optimization |
+
+---
+
+## 📖 Course Breakdown
+| Course | Topic | Application in Data Science & Analytics |
+|----------|----------|----------|
+| **College Algebra** | Functions and Graphs | Modeling variable relationships |
+| | Polynomial Functions | Predictive modeling and trend fitting |
+| | Rational Functions | Modeling complex variable interactions |
+| | Exponential Functions | Growth and decay modeling |
+| | Logarithmic Functions | Data transformation and scaling |
+| | Systems of Equations | Optimization problems |
+| | Inequalities | Constraint-based optimization |
+| | Sequences and Series | Trend analysis and forecasting |
+| **Linear Algebra** | Vectors | Data representation |
+| | Matrices | Machine learning computations |
+| | Matrix Operations | Data transformations and model computations |
+| | Vector Spaces | Feature representation and dimensionality reduction |
+| | Eigenvalues | Dimensionality reduction |
+| | Eigenvectors | Principal Component Analysis (PCA) |
+| | Matrix Decomposition | Recommendation systems and latent factor models |
+| **Discrete Mathematics** | Logic | Decision systems and algorithms |
+| | Set Theory | Database queries and operations |
+| | Relations | Knowledge graphs and databases |
+| | Functions | Data mapping and transformations |
+| | Proof Techniques | Algorithm correctness and validation |
+| | Combinatorics | Probability calculations |
+| | Graph Theory | Network and social media analysis |
+| **Calculus** | Limits | Foundations of optimization algorithms |
+| | Continuity | Understanding smooth model behavior |
+| | Derivatives | Gradient Descent |
+| | Partial Derivatives | Neural Networks |
+| | Integration | Probability and statistics |
+| | Multivariable Calculus | Optimization of machine learning models |
+| **Differential Equations** | First-Order Differential Equations | Population growth modeling |
+| | Higher-Order Differential Equations | Dynamic systems analysis |
+| | Systems of Differential Equations | Dynamic processes |
+| | Dynamic System Modeling | Forecasting and simulations |
+| | Error Analysis | Model evaluation and computational accuracy |
+| | Root Finding Methods | Optimization algorithms |
+| | Numerical Differentiation | Machine learning optimization |
+| | Numerical Integration | Statistical computations |
+| | Interpolation | Missing data estimation |
+| | Numerical Solutions of Differential Equations | Simulation and forecasting models |
+
+---
+
+**💡The mathematics you learn today becomes the insight you create tomorrow.💡**
+**Jīntiān xuéxí de shùxué, jiāng chéngwéi míngtiān chuàngzào de dòngchá.**
+**今天学习的数学，将成为明天创造的洞察。**
+
+---
+
+## 🌍 Real-World Applications
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3e68453b-bf07-44f5-a768-1bfa24cd3c95" />
+
+
+| Mathematical Area | Applications |
+|-------------------|---------------------|
+| **College Algebra** | Sales forecasting, customer growth analysis, revenue modeling |
+| **Linear Algebra** | Recommendation systems, computer vision, natural language processing |
+| **Discrete Mathematics** | Social network analysis, fraud detection, route optimization |
+| **Calculus** | Machine learning optimization, deep learning, regression models |
+| **Differential Equations** | Disease spread modeling, economic forecasting, environmental monitoring |
+| **Numerical Analysis** | Scientific computing, financial modeling, large-scale simulations |
+
+---
+
+## 💻 Possible Projects
+
+| Project | Mathematical Concepts |
+|----------|----------------------|
+| Linear Regression from Scratch | College Algebra, Calculus |
+| Matrix Operations for Machine Learning | Linear Algebra |
+| Principal Component Analysis (PCA) | Linear Algebra |
+| Gradient Descent Visualization | Calculus |
+| Social Network Analysis | Discrete Mathematics |
+| Time Series Forecasting | Differential Equations |
+| Numerical Optimization Methods | Numerical Analysis |
+| Recommendation System Mathematics | Linear Algebra, Discrete Mathematics |
+
+---
+
+## 🚀 Learning Progress
+.md file and PowerBI
+
+---
+
+## 📂 Repository Structure
+
+```text
+Mathematical-Foundations-for-Data-Science/
+│
+├── 01-College-Algebra/
+│   ├── Notes
+│   ├── Examples
+│   └── Applications-in-Data-Science.md
+│
+├── 02-Linear-Algebra/
+│
+├── 03-Discrete-Mathematics/
+│
+├── 04-Calculus/
+│
+├── 05-Differential-Equations/
+│
+├── 06-Numerical-Analysis/
+│
+├── Projects/
+│
+├── Resources/
+│
+└── README.md
+```
+
+---
+
+## 🌟 Why This Repository?
+
+Understanding the mathematics behind Data Science allows me to:
+
+- Interpret machine learning models more effectively.
+- Understand why algorithms work rather than simply using them.
+- Improve analytical and problem-solving skills.
+- Make better data-driven decisions.
+- Build a stronger foundation for advanced topics in AI and Machine Learning.
+
+
+
+
+
+
+
+
+ 
