@@ -1,8 +1,12 @@
 # From Equations to Insights: Mathematical Foundations for Data Science & Analytics
-        * Cóng Fāngchéng Dào Dòngchá: Shùjù Kēxué Yǔ Shùjù Fēnxī De Shùxué Jīchǔ
+  * Cóng Fāngchéng Dào Dòngchá: Shùjù Kēxué Yǔ Shùjù Fēnxī De Shùxué Jīchǔ
       * 从方程到洞察：数据科学与数据分析的数学基础
+        
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/17833fd7-28e9-4c9f-be36-5b218d7ed816" />
 
 * A curated repository documenting my mathematical journey and demonstrating how mathematical concepts form the foundation of Data Science, Analytics, Machine Learning, and Artificial Intelligence.
+
+-------------
 
 ## 📖 Overview
 
@@ -12,13 +16,14 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 
 ---
 
- * **Data tells us what happened. Mathematics helps us understand why.**
+ * **🦚Data tells us what happened. Mathematics helps us understand why.🦚**
    * **Shùjù gàosù wǒmen fāshēng le shénme. Shùxué bāngzhù wǒmen lǐjiě wèishénme.**
      * **数据告诉我们发生了什么。数学帮助我们理解为什么。**
 
  --------
 ## 🎯 Objectives
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8c18e2ac-579b-4c72-8372-82452be8dd32" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2eb2fa8b-977a-4df2-a96e-ed8a6925a50a" />
+
 
 - Document my mathematical learning journey.
 - Strengthen my theoretical foundation in Data Science and Analytics.
@@ -99,12 +104,18 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 | | Higher-Order Differential Equations | Dynamic systems analysis |
 | | Systems of Differential Equations | Dynamic processes |
 | | Dynamic System Modeling | Forecasting and simulations |
-| **Numerical Analysis** | Error Analysis | Model evaluation and computational accuracy |
-| | Root Finding Methods | Optimization algorithms |
-| | Numerical Differentiation | Machine learning optimization |
-| | Numerical Integration | Statistical computations |
-| | Interpolation | Missing data estimation |
-| | Numerical Solutions of Differential Equations | Simulation and forecasting models |
+| **Numerical Analysis** | Introduction to Numerical Analysis | Foundations of computational problem-solving |
+| | Error Analysis (Absolute, Relative, Round-off, Propagated, Generated, Accumulated Errors) | Model evaluation, computational accuracy, and reliability |
+| | Finite Difference Tables | Approximation techniques and numerical forecasting |
+| | Determining Missing Values | Data estimation and reconstruction |
+| | Interpolation (Newton Forward, Newton Backward, Newton Divided Differences, Lagrange) | Missing data estimation, curve fitting, and predictive modeling |
+| | Numerical Differentiation (Newton Forward, Newton Backward) | Gradient approximation and optimization |
+| | Numerical Integration (Trapezoidal Rule, Simpson's 1/3 Rule, Simpson's 3/8 Rule, Romberg Integration) | Statistical computation, area estimation, and scientific computing |
+| | Methods for Solving Linear Systems:Direct Methods (Inverse Matrix Method, Cramer's Rule) | Solving systems of equations used in data modeling, analytics, and computational problem-solving |
+| | Linear Systems:Iterative Methods (Jacobi Iteration, Gauss-Seidel Iteration) | Large-scale computations and machine learning optimization |
+| | Root-Finding Methods (Bisection, False Position, Newton-Raphson, Secant) | Optimization, parameter estimation, and nonlinear problem-solving |
+| | Numerical Solutions to Mathematical Problems | Scientific computing, simulations, and forecasting models |
+
 
 ---
 
@@ -125,7 +136,16 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 | **Discrete Mathematics** | Social network analysis, fraud detection, route optimization |
 | **Calculus** | Machine learning optimization, deep learning, regression models |
 | **Differential Equations** | Disease spread modeling, economic forecasting, environmental monitoring |
-| **Numerical Analysis** | Scientific computing, financial modeling, large-scale simulations |
+| **Numerical Analysis** | Missing data estimation through interpolation.|
+||Model accuracy evaluation through error analysis.|
+||Machine learning optimization using numerical methods.|
+||solving large-scale systems for analytics.|
+||Predictive modeling.|
+||Time-series forecasting.|
+||Statistical computing.|
+||Recommendation system computations.|
+||Financial forecasting.|
+||Simulation-based decision support.|
 
 ---
 
@@ -139,14 +159,18 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 | Gradient Descent Visualization | Calculus |
 | Social Network Analysis | Discrete Mathematics |
 | Time Series Forecasting | Differential Equations |
-| Numerical Optimization Methods | Numerical Analysis |
 | Recommendation System Mathematics | Linear Algebra, Discrete Mathematics |
+| Missing Data Estimation Using Interpolation| **Numerical Analysis** |
+| Numerical Optimization & Root-Finding for Machine Learning| Numerical Analysis |
+| Time-Series Forecasting and Error Analysis| Numerical Analysis |
 
 ---
 
 ## 🚀 Learning Progress
-.md file and PowerBI
-
+* Practice at least **3 times a week**.
+* Progress.md file for writing down progress in Github.
+* Progress.xlsx for writing down progress locally, syncing it to PowerBI for visualisations
+Math-Progress.pbix for making a report
 ---
 
 ## 📂 Repository Structure
@@ -155,9 +179,9 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 Mathematical-Foundations-for-Data-Science/
 │
 ├── 01-College-Algebra/
-│   ├── Notes
-│   ├── Examples
-│   └── Applications-in-Data-Science.md
+│   ├── Content
+│   ├── Application
+│   └── Practice
 │
 ├── 02-Linear-Algebra/
 │
@@ -188,6 +212,10 @@ Understanding the mathematics behind Data Science allows me to:
 - Make better data-driven decisions.
 - Build a stronger foundation for advanced topics in AI and Machine Learning.
 
+-----------
+* **🐉Mathematics transforms data into understanding, understanding into insight, and insight into impact.🐉**
+  * **Shùxué jiāng shùjù zhuǎnhuàn wéi lǐjiě, jiāng lǐjiě zhuǎnhuàn wéi dòngchá, jiāng dòngchá zhuǎnhuàn wéi yǐngxiǎng.**
+    * **数学将数据转化为理解，将理解转化为洞察，将洞察转化为影响。**
 
 
 
