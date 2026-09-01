@@ -180,15 +180,16 @@ Understanding the mathematics behind Data Science allows me to:
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
 * Get a badge at Week 7
-
+* ! means pending
   |Week|Day|Progress|
   |----|---|--------|
   |1|1|Created Differential Equations Repository with a detailed README file.|
   ||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
   ||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
   |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
-  |2|4|Recap on what can be expected in Numerical Analysis.|
-  |||Practice on Content in Numerical Analysis using End Semester Examination.|
+  |2|4|!Recap on what can be expected in Numerical Analysis.|
+  |||!Practice on Content in Numerical Analysis using End Semester Examination.|
+  |||Find out more on MATLAB.|
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
@@ -228,6 +229,8 @@ Mathematical-Foundations-for-Data-Science/
     * **数学将数据转化为理解，将理解转化为洞察，将洞察转化为影响。**
 
 
+## References
+Simplilearn. (2023, January 17). Introduction to MATLAB in 8 Minutes | What is MATLAB? | MATLAB for Beginners | Simplilearn [Video recording]. https://www.youtube.com/watch?v=zF5lKWY87z8
 
 
 
