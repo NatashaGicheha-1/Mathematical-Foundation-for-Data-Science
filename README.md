@@ -33,6 +33,18 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 
 ---
 
+## 🌟 Why This Repository?
+
+Understanding the mathematics behind Data Science allows me to:
+
+- Interpret machine learning models more effectively.
+- Understand why algorithms work rather than simply using them.
+- Improve analytical and problem-solving skills.
+- Make better data-driven decisions.
+- Build a stronger foundation for advanced topics in AI and Machine Learning
+
+--------
+
 ## 📚 Mathematical Areas Covered
 
 | Course | Description | Why It Matters in Data Science |
@@ -116,7 +128,6 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 | | Root-Finding Methods (Bisection, False Position, Newton-Raphson, Secant) | Optimization, parameter estimation, and nonlinear problem-solving |
 | | Numerical Solutions to Mathematical Problems | Scientific computing, simulations, and forecasting models |
 
-
 ---
 
 * **💡The mathematics you learn today becomes the insight you create tomorrow.💡**
@@ -168,12 +179,24 @@ This repository serves as both a learning portfolio and a knowledge base, docume
 
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
-* Progress.md file for writing down progress in Github.
-* Progress.xlsx for writing down progress locally, syncing it to PowerBI for visualisations
-Math-Progress.pbix for making a report
+* Get a badge at Week 7
+
+  |Week|Day|Progress|
+  |----|---|--------|
+  |1|1|Created Differential Equations Repository with a detailed README file.|
+  ||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
+  ||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
+  |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
+  |2|4|Recap on what can be expected in Numerical Analysis.|
+  |||Practice on Content in Numerical Analysis using End Semester Examination.|
 ---
 
-## 📂 Repository Structure
+* **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
+  * **Wěidà de shùxuéjiā bù shì cóng bù yùdào kùnnan de rén, ér shì yī bù yī bù jiějué wèntí de rén.**
+    * **伟大的数学家不是从不遇到困难的人，而是一步一步解决问题的人。**
+----
+
+## 📂 Repository Structure （With-Time)
 
 ```text
 Mathematical-Foundations-for-Data-Science/
@@ -181,7 +204,6 @@ Mathematical-Foundations-for-Data-Science/
 ├── 01-College-Algebra/
 │   ├── Content
 │   ├── Application
-│   └── Practice
 │
 ├── 02-Linear-Algebra/
 │
@@ -199,18 +221,6 @@ Mathematical-Foundations-for-Data-Science/
 │
 └── README.md
 ```
-
----
-
-## 🌟 Why This Repository?
-
-Understanding the mathematics behind Data Science allows me to:
-
-- Interpret machine learning models more effectively.
-- Understand why algorithms work rather than simply using them.
-- Improve analytical and problem-solving skills.
-- Make better data-driven decisions.
-- Build a stronger foundation for advanced topics in AI and Machine Learning.
 
 -----------
 * **🐉Mathematics transforms data into understanding, understanding into insight, and insight into impact.🐉**
