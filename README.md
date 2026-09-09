@@ -177,6 +177,14 @@ Understanding the mathematics behind Data Science allows me to:
 
 ---
 
+## 🤓 Goals
+|Current Goals|Future Goals|
+|-------------|------------|
+|Learn theory on Optimization Techniques, Analytical and Computational Techniques and Probability and Statistics II|Revise theory on the previous 5 courses: College Algebra, Linear Algebra, Discrete Mathematics, Calculus and Differential Equations|
+|Learn how the above courses + Numerical Analysis is Applied in the real world|Appication on the previous 5 courses|
+|Do projects on the 4 courses|Projects on the previous 5 courses|
+|Get more people interested in my work||
+---
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
 * Get a badge at Week 7
@@ -187,9 +195,11 @@ Understanding the mathematics behind Data Science allows me to:
   ||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
   ||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
   |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
-  |2|4|!Recap on what can be expected in Numerical Analysis.|
+  |2|4|Find out more on MATLAB.|
+  ||5|Theory on Introduction to Optimization Techniques.|
+  |||!Recap on what can be expected in Numerical Analysis.|
   |||!Practice on Content in Numerical Analysis using End Semester Examination.|
-  |||Find out more on MATLAB.|
+  
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
@@ -197,8 +207,18 @@ Understanding the mathematics behind Data Science allows me to:
     * **伟大的数学家不是从不遇到困难的人，而是一步一步解决问题的人。**
 ----
 
-## 📂 Repository Structure （With-Time)
+## 📂 Repository Structure
+### Current
+```text
+Mathematical-Foundations-for-Data-Science/
+│
+├── Numerical Analysis.docs
+│
+├── Optimization Techniques.md
+│
+```
 
+### Future
 ```text
 Mathematical-Foundations-for-Data-Science/
 │
