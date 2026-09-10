@@ -1,7 +1,8 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6329336f-92fd-463b-9011-5828ff26aff5" />
 
 # Introduction
-- Optimization techniques involve finding the best solution to a problem from choices considering constraints involved.
+- **Optimization** is a mathematical approach used to find the best solution to a problem from a set of possible choices considering specific constraints and objectives.
+- This is done by minimizing costs or maximizing some measure of efficiency or performance.
 - Nearly every machine and statistical learning algorithm can be formulated as an optimization problem where the objective is to:
   - Minimize prediction error.
   - Maximize accuracy.
@@ -17,9 +18,9 @@
 6. ...
 
 ## Importance of Optimization Techniques to a Data Scientist
-1. Model Training and Parameter Estimation
-2. Improving Model Predictive Accuracy of 
-3. Reduce Computational Time in Handling Large Datasets.
+1. Model Training and Parameter Estimation.
+2. Improving Model Predictive Accuracy. 
+3. Reducing Computational Time in Handling Large Datasets.
 4. Hyperparameter Tuning for Better Model Performance.
 5. Preventing Overfitting and Enhancing Generalization.
 6. Improved Resource Utilization and Deployment Efficiency.
@@ -35,7 +36,7 @@
      -  Support Vector Machines.
      -  Neural Networks.
      -  Gradient Boosting.
-   - **Optimization techniques**  help identify parameter values that yield optimal model performance:
+   - **Optimization techniques** below help identify parameter values that yield optimal model performance:
      - Gradient Descent.
      - Stochastic Gradient Descent (SGD).
      - Adam and Newton-based methods.
@@ -91,13 +92,13 @@
   - Reduce training time.
   - Lower energy consumption.
   - Improve hardware utilization.
-- Enable deployment of models on cloud and edge devices.
+- Enable deployment of models on cloud and edge devices at a lower price.
 - Efficient optimization algorithms can substantially decrease computational costs while maintaining model performance.
 
 -----------
 
 7. Decision-Making and Prescriptive Analytics
-- Beyond machine learning, optimization assists data scientists in generating optimal business decisions.
+- Beyond machine learning, optimization assists data scientists in **generating optimal business decisions.**
 - **Applications include:**
   - Supply chain optimization.
   - Portfolio optimization in finance.
@@ -110,16 +111,16 @@
 
 8. Deep Learning Success
 - The success of deep learning comes from advances in optimization techniques.
-- Sophisticated optimizers enable **neural networks** with millions of parameters to converge effectively on complex tasks such as:
+- Sophisticated optimizers enable **neural networks** with millions of parameters to **converge effectively on complex tasks** such as:
   - Image recognition.
   - Natural language processing.
   - Recommendation systems.
-- Recent reviews identify optimization as the key enabler of modern AI systems, including transformers and generative AI models.
+- Recent reviews identify **optimization** as the **key enabler of modern AI systems**, including transformers and generative AI models.
 
 -----
 
 ## Conclusion
-- Optimization techniques are important to a data scientists because it is involved in model training, improving predictive accuracy, enhancing scalability, reducing computational costs, hyperparameter tuning for better model performance, preventing overfitting and facilitate optimal decision-making.
+- Optimization techniques are important to a data scientists because it involves model training, improving predictive accuracy, enhancing scalability, reducing computational costs, hyperparameter tuning, preventing overfitting and facilitate optimal decision-making.
 - As datasets and machine learning models continue to grow in size and complexity, mastery of optimization techniques remains a critical skill for successful data science practice.
 
 ----
@@ -154,9 +155,11 @@ https://www.youtube.com/watch?v=LpamajnMpZY&pp=ygUnb3B0aW1pemF0aW9uIHRlY2huaXF1Z
 - File contains AI Generated media.
 - Still learning on the course, some concepts may be wrong
 
+-----
+
 - 🔢Main goal is to understand, not to cram🔢.
- - Zhǔyào mùbiāo shì lǐjiě, bú shì sǐjì yìngbèi.
-  - 主要目标是理解，不是死记硬背。
+  - Zhǔyào mùbiāo shì lǐjiě, bú shì sǐjì yìngbèi.
+    - 主要目标是理解，不是死记硬背。
 
 ----------
 -----------
