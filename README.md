@@ -197,6 +197,7 @@ Understanding the mathematics behind Data Science allows me to:
   |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
   |2|4|Find out more on MATLAB.|
   ||5|Theory on Introduction to Optimization Techniques.|
+  ||6|Review on Introduction.|
   |||!Recap on what can be expected in Numerical Analysis.|
   |||!Practice on Content in Numerical Analysis using End Semester Examination.|
   
