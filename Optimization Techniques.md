@@ -1,6 +1,6 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6329336f-92fd-463b-9011-5828ff26aff5" />
 
-# Introduction
+# 1. Introduction
 - **Optimization** is a mathematical approach used to find the best solution to a problem from a set of possible choices considering specific constraints and objectives.
 - This is done by minimizing costs or maximizing some measure of efficiency or performance.
 - Nearly every machine and statistical learning algorithm can be formulated as an optimization problem where the objective is to:
@@ -8,6 +8,12 @@
   - Maximize accuracy.
   - Optimize a performance measure.
 - According to Sun et al. (2020), **optimization** is one of the core components of machine learning since *model training*  involves *finding the best parameter values from data*
+
+## Classification of Optimization
+- Theory
+- Algorithm
+- Application
+  - **Theoretical** developments lead to efficient **algorithms** enabling practical **applications** across many fields.
   
 ## Fields that use Optimization Techniques
 1. Data Science
@@ -150,7 +156,159 @@
 https://www.youtube.com/watch?v=LpamajnMpZY&pp=ygUnb3B0aW1pemF0aW9uIHRlY2huaXF1ZXMgaW4gZGF0YSBzY2llbmNl
 
 ----
+---------
 
+# 2.Model
+- This is a representation of reality.
+- Accuracy of the solution is dependent on Model Accuracy and input data
+  - Independent variables : Model Accuracy and input data.
+  - Dependent variable : Accuracy of the solution.
+- **Decision variable** - this is a variable that is controlled and chosen, used in decision making.
+
+
+## Examples of Models
+|Model|Explanation|
+|------|----------|
+|Iconic|This is a virtual model of the real object represented.|
+|Simulation|Represents behavior of a real system.|
+|Mathematical|-Shows working of the real world by mathematical symbols, equations and formulae. Mostly used in optimization|
+
+--------
+
+## 7 Principle faces of Optimization Study
+### Write them in order
+1. Problem recognition and definition.
+2. Model building.
+3. Data collection.
+4. Solution development.
+5. Solution interpretation.
+6. Result implementation.
+7. Review & maintenance.
+
+----------
+# Multiple Choice Quiz(MCQS) on topic 1 = Introduction and topic 2 - Model
+1. What is **optimization**?
+
+A. A method for collecting data only
+
+B. A mathematical approach used to find the best solution from a set of possible choices subject to constraints and objectives
+
+C. A graphical representation of reality only
+
+D. A technique used exclusively in economics
+
+---
+2. According to the document, optimization can be broadly classified into which three interconnected domains?
+
+A. Statistics, Algebra, and Geometry
+
+B. Theory, Algorithms, and Applications
+
+C. Planning, Control, and Evaluation
+
+D. Data, Models, and Solutions
+
+---
+3. Which of the following is **NOT** listed as a type of model?
+
+A. Iconic models
+
+B. Simulation models
+
+C. Mathematical models
+
+D. Chemical models
+
+---
+4. In a mathematical model for estimating the cost of running a boarding school:
+\[
+C(x) = a + bx
+\]
+
+what does **a** represent?
+
+A. Number of students
+
+B. Variable cost per student
+
+C. Fixed cost
+
+D. Total cost
+
+---
+5. Which of the following is identified in the document as a **decision variable**?
+
+A. A controllable variable used in making decisions
+
+B. A fixed cost in a model
+
+C. A source of data collection
+
+D. A validation technique
+
+---
+6. Which of the following is listed as one of the principal phases of optimization study?
+
+A. Data encryption
+
+B. Model building
+
+C. Market segmentation
+
+D. Advertising
+
+---
+7. According to the document, why is accurate data important in optimization?
+
+A. It reduces the need for a model
+
+B. It determines how well the model describes reality
+
+C. It eliminates all constraints
+
+D. It guarantees an optimal solution
+
+---
+8. According to the document, what is **model validation**?
+
+A. Collecting new data from customers
+
+B. Developing a mathematical formula
+
+C. An attempt to determine whether the model accurately represents the real system
+
+D. Implementing the final solution immediately
+
+---
+9. According to the document, which phase comes **after** the interpretation of the solution?
+
+A. Data collection
+
+B. Model building
+
+C. Implementation of results
+
+D. Problem recognition and definition
+
+---
+10. According to the document, optimization can help organizations:
+
+A. Eliminate all uncertainty
+
+B. Make the best decision from a set of possible choices
+
+C. Avoid the use of mathematical models
+
+D. Replace data collection entirely
+
+
+
+
+
+
+
+-----------
+--------------
 ## Disclaimer
 - File contains AI Generated media.
 - Still learning on the course, some concepts may be wrong
