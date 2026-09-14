@@ -187,8 +187,7 @@ Understanding the mathematics behind Data Science allows me to:
 ---
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
-* Get a badge at Week 7
-* ! means pending
+* Get a badge at Week 7.
   |Week|Day|Progress|
   |----|---|--------|
   |1|1|Created Differential Equations Repository with a detailed README file.|
@@ -198,8 +197,8 @@ Understanding the mathematics behind Data Science allows me to:
   |2|4|Find out more on MATLAB.|
   ||5|Theory on Introduction to Optimization Techniques.|
   ||6|Review on Introduction.|
-  |||!Recap on what can be expected in Numerical Analysis.|
-  |||!Practice on Content in Numerical Analysis using End Semester Examination.|
+  |3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding|
+  ||||
   
 ---
 
