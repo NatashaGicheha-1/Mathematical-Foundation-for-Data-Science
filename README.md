@@ -197,8 +197,8 @@ Understanding the mathematics behind Data Science allows me to:
   |2|4|Find out more on MATLAB.|
   ||5|Theory on Introduction to Optimization Techniques.|
   ||6|Review on Introduction.|
-  |3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding|
-  ||||
+  |3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding.|
+  ||8|Learning Linear Programing.|
   
 ---
 
