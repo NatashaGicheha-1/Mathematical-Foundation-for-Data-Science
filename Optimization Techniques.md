@@ -1,6 +1,7 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6329336f-92fd-463b-9011-5828ff26aff5" />
 
-# 1. Introduction
+<h1 align="center">1. Introduction</h1>
+
 - **Optimization** is a mathematical approach used to find the best solution to a problem from a set of possible choices considering specific constraints and objectives.
 - This is done by minimizing costs or maximizing some measure of efficiency or performance.
 - Nearly every machine and statistical learning algorithm can be formulated as an optimization problem where the objective is to:
@@ -24,18 +25,23 @@
 6. ...
 
 ## Importance of Optimization Techniques to a Data Scientist
-1. Model Training and Parameter Estimation.
+1. Used in Model Training and Parameter Estimation.
 2. Improving Model Predictive Accuracy. 
 3. Reducing Computational Time in Handling Large Datasets.
 4. Hyperparameter Tuning for Better Model Performance.
 5. Preventing Overfitting and Enhancing Generalization.
 6. Improved Resource Utilization and Deployment Efficiency.
-7. Decision-Making and Prescriptive Analytics.
-8. Deep Learning Success
-9. ...
+7. Improved Decision-Making in evaluating constraints in linear programing problems.
+8. Used in Prescriptive Analytics (what should happen).
+9. Deep Learning Success
+10. ...
 
-## Explanation of Importances above
-1. Model Training and Parameter Estimation
+---------
+
+
+
+## Explanation of Importance of Optimization Techniques to a Data Scientist
+**1. Model Training and Parameter Estimation**
    - The **Algorithms** below rely on optimization methods to minimize a loss function :
      -  Linear Regression.
      -  Logistic Regression.
@@ -56,14 +62,14 @@
 
 ---------
 
-2. Improving Model Predictive Accuracy
+**2. Improving Model Predictive Accuracy**
 - Poor optimization may lead to convergence at suboptimal solutions.
 - Effective optimization finds better minima in the loss landscape resulting in higher predictive performance.
 - Modern adaptive optimization methods such as Adam, RMSProp, and AdaGrad have significantly enhanced the ability of machine learning models to learn complex patterns from large datasets.
 
 ---------
 
-3. Handling Large-Scale Data
+**3. Handling Large-Scale Data**
 - Contemporary data science deals with massive datasets and high-dimensional feature spaces.
 - Bottou, Curtis, and Nocedal (2018) emphasize that large-scale machine learning presents unique optimization challenges that require stochastic and scalable optimization methods.
 - Traditional batch optimization becomes computationally expensive, whereas stochastic optimization methods process data efficiently and support real-time learning.
@@ -75,7 +81,7 @@
 
 ---------
 
-4. Hyperparameter Tuning for Better Model Performance.
+**4. Hyperparameter Tuning for Better Model Performance.**
 - Optimization techniques are essential for tuning hyperparameters such:
   - Learning rates.
   - Regularization coefficients.
@@ -85,14 +91,14 @@
 
 ---------
 
-5. Preventing Overfitting and Enhancing Generalization
+**5. Preventing Overfitting and Enhancing Generalization**
 - Optimization is closely linked with regularization techniques that prevent overfitting.
 - Regularization methods such as **L1 (Lasso) and L2 (Ridge) optimization** constrain model complexity and improve generalization to unseen data.
 - Modern optimization approaches integrate regularization mechanisms to balance model accuracy and robustness.
 
 ---------
 
-6. Resource Efficiency
+**6. Resource Efficiency**
 - Data scientists often work with limited computational resources.
 - Optimization helps:
   - Reduce training time.
@@ -103,7 +109,7 @@
 
 -----------
 
-7. Decision-Making and Prescriptive Analytics
+**7. Decision-Making and Prescriptive Analytics**
 - Beyond machine learning, optimization assists data scientists in **generating optimal business decisions.**
 - **Applications include:**
   - Supply chain optimization.
@@ -115,7 +121,7 @@
 
 --------
 
-8. Deep Learning Success
+**8. Deep Learning Success**
 - The success of deep learning comes from advances in optimization techniques.
 - Sophisticated optimizers enable **neural networks** with millions of parameters to **converge effectively on complex tasks** such as:
   - Image recognition.
@@ -124,12 +130,6 @@
 - Recent reviews identify **optimization** as the **key enabler of modern AI systems**, including transformers and generative AI models.
 
 -----
-
-## Conclusion
-- Optimization techniques are important to a data scientists because it involves model training, improving predictive accuracy, enhancing scalability, reducing computational costs, hyperparameter tuning, preventing overfitting and facilitate optimal decision-making.
-- As datasets and machine learning models continue to grow in size and complexity, mastery of optimization techniques remains a critical skill for successful data science practice.
-
-----
 
 ## References
  Bottou, L., Curtis, F. E., & Nocedal, J. (2018). *Optimization Methods for Large-Scale Machine Learning*. **SIAM Review, 60**(2), 223-311. https://doi.org/10.1137/16M1080173
@@ -158,13 +158,22 @@ https://www.youtube.com/watch?v=LpamajnMpZY&pp=ygUnb3B0aW1pemF0aW9uIHRlY2huaXF1Z
 ----
 ---------
 
-# 2.Model
+<h1 align="center">2. Model</h1>
+
 - This is a representation of reality.
 - Accuracy of the solution is dependent on Model Accuracy and input data
   - Independent variables : Model Accuracy and input data.
   - Dependent variable : Accuracy of the solution.
 - **Decision variable** - this is a variable that is controlled and chosen, used in decision making.
 
+----------
+
+## Key terms
+- **Variable** - measurable quantity that assumes different values or is subject to change for different entries over a defined range in the model.
+- **Decision / Controllable variable** - this is a variable proposed in making the decision.
+  - Decision by the manager is based on decision variable & the manager has control of the decision.
+
+------------------
 
 ## Examples of Models
 |Model|Explanation|
@@ -175,18 +184,223 @@ https://www.youtube.com/watch?v=LpamajnMpZY&pp=ygUnb3B0aW1pemF0aW9uIHRlY2huaXF1Z
 
 --------
 
-## 7 Principle faces of Optimization Study
-### Write them in order
-1. Problem recognition and definition.
-2. Model building.
-3. Data collection.
-4. Solution development.
-5. Solution interpretation.
-6. Result implementation.
-7. Review & maintenance.
+## Principle Phases of Optimization
+**1. Problem recognition and definition** - identifying & developing a clear & detailed problem statement.
+
+**2. Model building** - model must be developed in a way that it can be solved by an appropriate optimization technique.
+
+**3. Data collection** - accurate data is important in optimization since it determines how well the model describes reality.
+
+**4. Solution development** - manipulating the model to produce the best optimal solution to the problem.
+
+**5. Solution interpretation** - solution needs to be tested completely before it is analysed & implemented.
+
+**6. Result implementation** - only done after careful result interpretation and modifications where appropriate.
+
+**7. Review & maintenance** - monitor the model regularly to ensure it continue to work and fulfil its objective.
 
 ----------
-# Multiple Choice Quiz(MCQS) on topic 1 = Introduction and topic 2 - Model
+----------
+
+<h1 align="center">3.Linear Programming</h1>
+
+- **Linear Programming** - this is a technique for optimization of linear objective functions subjected to linear equality & inequality constraints.
+
+-----
+
+## Conditions of Linear Programming
+1. Be capable of being stated in **numeric term.**
+2. All factors involved must have a **linear relationship.**
+3. Problem must permit **choice(s)** between alternative course of action.
+4. Must be one/more **restriction** into factors involved.
+
+---
+
+## Components of a General Linear Programming Model
+1. Objective function
+2. Constraints
+3. Non-negativity restriction - Decision variables must be values equal to/greater than zero.
+
+---
+
+## Assumptions (5) on Linear Programming
+
+1. **Divisibility** - decision values obtained for the decision variable can take any form (integer, fraction).
+2. **Certainty** - model parameter values are constant & known with certainty.
+3. **Proportionality** - linear relationship btw the variable exists.
+4. **Non-negativity** - physical quantities cannot have negative values.
+5. **Additivity** - total of all activities = sum of individual activities.
+
+---
+
+## Formulating Linear Programming Problems
+1. Identify manageable problem = can it be formulated as an LP Problem.
+2. Decision variable.
+3. Objective → min or max?
+4. Constraint → rep min or max availability.
+
+> **NB:** Use decision variable to write mathematical expression for the objective function, constraints & include non-negative condition.
+
+
+### Example
+
+Let
+
+- x = Medicine A
+- y = Medicine B
+
+Constraints:
+
+- x ≤ 20,000
+- y ≤ 40,000
+- x + y ≤ 45,000
+- 3x + y ≤ 66
+
+Objective Function:
+
+\[
+z = 8x + 7y
+\]
+
+Write all in descending order:
+
+### Maximize
+
+\[
+z = 8x + 7y
+\]
+
+Subject to:
+
+\[
+x \le 20,000
+\]
+
+\[
+y \le 40,000
+\]
+
+\[
+x + y \le 45,000
+\]
+
+\[
+3x + y \le 66
+\]
+
+\[
+x, y \ge 0
+\]
+
+---
+
+## Example 4
+
+Let:
+
+- x = Tonic 1
+- y = Tonic 2
+
+Constraints:
+
+\[
+2x + 4y \le 40
+\]
+
+\[
+3x + 2y \le 50
+\]
+
+\[
+x \le 50
+\]
+
+\[
+y \le 30
+\]
+
+Objective Function:
+
+\[
+z = 50x + 30y
+\]
+
+- **NB: In writing equations:Max ≤ , Min ≥**
+
+### Minimize
+
+\[
+z = 50x + 30y
+\]
+
+Subject to:
+
+\[
+2x + 4y \ge 40
+\]
+
+\[
+3x + 2y \ge 50
+\]
+
+\[
+x, y \ge 0
+\]
+
+---
+
+## Practice: 6
+
+Let
+
+- x = Product A
+- y = Product B
+
+### Maximize
+
+\[
+z = 30x + 40y
+\]
+
+Subject to:
+
+\[
+60x + 120y \le 12,000
+\]
+
+\[
+8x + 5y \le 600
+\]
+
+\[
+3x + 4y \le 500
+\]
+
+\[
+x, y \ge 0
+\] 
+
+----------
+-----------
+
+<h1 align="center">Practice</h1>
+
+## Short answer quiz
+### topics = Introduction, Model, Linear Programming
+1. Define:
+    - Optimization
+    - Variable
+    - Decision variable
+    - Linear Programming
+    - Objective function
+
+2. State and explain principle faces of optimization study.
+3. State 5 Importances of Optimization Techniques to a Data Scientist.
+4. State 5 Assumptions of Linear Programming
+
+---------
+
+## Multiple Choice Quiz(MCQS) on topic 1 = Introduction and topic 2 - Model
 1. What is **optimization**?
 
 A. A method for collecting data only
@@ -312,7 +526,7 @@ D. Replace data collection entirely
 ## Disclaimer
 - File contains AI Generated media.
 - Still learning on the course, some concepts may be wrong
-
+- Quizzes arranged in descending order
 -----
 
 - 🔢Main goal is to understand, not to cram🔢.
