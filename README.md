@@ -188,17 +188,20 @@ Understanding the mathematics behind Data Science allows me to:
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
 * Get a badge at Week 7.
-  |Week|Day|Progress|
-  |----|---|--------|
-  |1|1|Created Differential Equations Repository with a detailed README file.|
-  ||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
-  ||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
+  
+  |Exact_Date|Week|Day|Progress|
+  |----------|----|---|--------|
+  ||1|1|Created Differential Equations Repository with a detailed README file.|
+  |||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
+  |||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
   |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
-  |2|4|Find out more on MATLAB.|
-  ||5|Theory on Introduction to Optimization Techniques.|
-  ||6|Review on Introduction.|
-  |3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding.|
-  ||8|Learning Linear Programing.|
+  ||2|4|Find out more on MATLAB.|
+  |||5|Theory on Introduction to Optimization Techniques.|
+  |||6|Review on Introduction.|
+  ||3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding.|
+  |||8|Learning Linear Programing.|
+  |18/09/2026||9|Discrete Random Variables;Probability and Statistics 2.|
+  |20/09/2026|4|10|Continuous Random Variables and Mixed Application Questions;Probability and Statistics 2.|
   
 ---
 
