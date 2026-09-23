@@ -201,7 +201,13 @@ Understanding the mathematics behind Data Science allows me to:
   ||3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding.|
   |||8|Learning Linear Programing.|
   |18/09/2026||9|Discrete Random Variables;Probability and Statistics 2.|
-  |20/09/2026|4|10|Continuous Random Variables and Mixed Application Questions;Probability and Statistics 2.|
+  |20/09/2026|4|10|Studied on Continuous Random Variables and Mixed Application Questions ; Probability and Statistics 2.|
+  |21/09/2026||11|Studied on Mean & Variance for Discrete Probability Distributions ; Probability and Statistics 2.|
+  |22/09/2026||12|Recap on Mean & Variance... , Practiced Graphical Solutions to Linear Programming (L.P) Problem ; Optimization Techniques.|
+  |23/09/2026|5|13|Started on Analytical and Computational Foundation. Uploaded MATLAB files used(Continuous Progress).|
+  |||||
+  |||||
+  |||||
   
 ---
 
@@ -219,6 +225,8 @@ Mathematical-Foundations-for-Data-Science/
 │
 ├── Optimization Techniques.md
 │
+├── Analytical and Computational Foundation
+│   
 ```
 
 ### Future
