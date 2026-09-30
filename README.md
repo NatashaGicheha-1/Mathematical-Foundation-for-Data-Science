@@ -127,6 +127,15 @@ Understanding the mathematics behind Data Science allows me to:
 | | Linear Systems:Iterative Methods (Jacobi Iteration, Gauss-Seidel Iteration) | Large-scale computations and machine learning optimization |
 | | Root-Finding Methods (Bisection, False Position, Newton-Raphson, Secant) | Optimization, parameter estimation, and nonlinear problem-solving |
 | | Numerical Solutions to Mathematical Problems | Scientific computing, simulations, and forecasting models |
+| **Probability and Statistics 2** |Random Variables: Discrete, Continuous| |
+| |Expected Value and Variance for Discrete Probability Distributions| |
+| |Discrete Distributions: Bernoulli, Binomial, Poisson | |
+| **Analytical and Computational Foundation** || |||
+| **Optimization Techniques**|Introduction to Optimization Techniques | |
+| |Models: Iconic, Simulation, Mathematical| |
+| |Linear Programming; Formulating LPP, Solving LPP graphically| |
+| |Duality| |
+| |Big M Method| |
 
 ---
 
