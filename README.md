@@ -131,11 +131,13 @@ Understanding the mathematics behind Data Science allows me to:
 | |Expected Value and Variance for Discrete Probability Distributions| |
 | |Discrete Distributions: Bernoulli, Binomial, Poisson | |
 | **Analytical and Computational Foundation** || |||
-| **Optimization Techniques**|Introduction to Optimization Techniques | |
-| |Models: Iconic, Simulation, Mathematical| |
-| |Linear Programming; Formulating LPP, Solving LPP graphically| |
-| |Duality| |
-| |Big M Method| |
+| **Optimization Techniques**|Introduction to Optimization Techniques |Optimization minimizes loss functions in machine learning and forms the decision engine for prescriptive analytics like resource allocation and dynamic pricing.|
+| |Models: Iconic, Simulation, Mathematical|Iconic models visualize spatial data(location coordinates), Simulation models (like Monte Carlo) quantify risk under uncertainty, and Mathematical models drive algorithmic decisions like portfolio optimization. |
+| |Linear Programming; Formulating Linear Programming Problem (LPP), Solving LPP graphically|LPP formulates business constraints into linear equations to optimize objectives like ad spend allocation, while the graphical method provides an intuitive 2-variable visual model for feasibility regions.|
+| |Duality|Duality translates primal resource limits into "shadow prices" for valuation in business decisions and forms the mathematical backbone of Support Vector Machines (SVMs).|
+| |Big M Method|Big M extends the Simplex algorithm to handle complex "greater-than-or-equal-to" ($\ge$) operational constraints, such as minimum shift staffing requirements.|
+| |Transportation Problems: North West Corner Rule (NWCR) , Least Cost Method (LCM)|The North West Corner Rule establishes quick baseline solutions for shipping networks, while the Least Cost Method provides a fast, greedy heuristic for real-time supply chain routing.|
+| || |
 
 ---
 
