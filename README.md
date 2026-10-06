@@ -61,24 +61,6 @@ Understanding the mathematics behind Data Science allows me to:
 ## 🔗 Mathematics to Data Science Mapping
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/960c3026-9cfe-4789-bc9e-0664c3afc73b" />
 
-
-| Mathematical Topic | Data Science & Analytics Application |
-|-------------------|--------------------------------------|
-| Functions | Modeling relationships between variables |
-| Logarithmic Functions | Data transformation and normalization |
-| Systems of Equations | Optimization and parameter estimation |
-| Vectors | Feature representation and embeddings |
-| Matrices | Dataset manipulation and machine learning computations |
-| Eigenvalues & Eigenvectors | Principal Component Analysis (PCA) |
-| Logic | Algorithm design and decision-making systems |
-| Graph Theory | Network analysis and recommendation systems |
-| Combinatorics | Probability and feature selection |
-| Derivatives | Gradient Descent |
-| Partial Derivatives | Neural Network Backpropagation |
-| Integration | Probability distributions and statistical modeling |
-| Differential Equations | Dynamic systems and time-series forecasting |
-| Numerical Methods | Efficient computation and model optimization |
-
 ---
 
 ## 📖 Course Breakdown
@@ -129,7 +111,7 @@ Understanding the mathematics behind Data Science allows me to:
 | | Numerical Solutions to Mathematical Problems | Scientific computing, simulations, and forecasting models |
 | **Probability and Statistics 2** |Random Variables: Discrete, Continuous| |
 | |Expected Value and Variance for Discrete Probability Distributions| |
-| |Discrete Distributions: Bernoulli, Binomial, Poisson | |
+| |Discrete Distributions: Bernoulli - only one item, Binomial - 2/more items, Poisson - "average", Geometric, Normal | |
 | **Analytical and Computational Foundation** || |||
 | **Optimization Techniques**|Introduction to Optimization Techniques |Optimization minimizes loss functions in machine learning and forms the decision engine for prescriptive analytics like resource allocation and dynamic pricing.|
 | |Models: Iconic, Simulation, Mathematical|Iconic models visualize spatial data(location coordinates), Simulation models (like Monte Carlo) quantify risk under uncertainty, and Mathematical models drive algorithmic decisions like portfolio optimization. |
@@ -217,9 +199,11 @@ Understanding the mathematics behind Data Science allows me to:
   |22/09/26||12|Recap on Mean & Variance... , Practiced Graphical Solutions to Linear Programming (L.P) Problem ; Optimization Techniques.|
   |23/09/26|5|13|Started on Analytical and Computational Foundation. Uploaded MATLAB files used(Continuous Progress).|
   |28/09/26||14|Quiz on: Discrete Random Variables, Continuous Random Variables, Expected Value & Variance for Discrete Probability Distribution, Discrete Distributions: Bernoulli, Binomial and Poisson |
+  |03/10/26||15|Optimization Techniques; Practice on Formulating Linear Programming Problem (LPP), Simplex Iteration, Solving LPP using Graphs|
+  |05/10/26|6|16|Analytical and Computational Foundation; Practical Practice Questions|
+  |06/10/26||17|Overview on content covered in Probability and Statistics 2|
   |||||
   |||||
-  
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
