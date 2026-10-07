@@ -1,9 +1,12 @@
-# 🌸 Practice 2
+<h1 align="center">🌸 Practice 2 🌸</h1>
 
-### 📊 Probability & Random Variables · 概率 *(gàilǜ)*
+### On Discrete Random Variables, Continuous Random Variables, Expected Value and Variance of Discrete Probability Distributions, Discrete Distributions:Bernoulli,Binomial and Poisson
 
-
-> <span style="color:#8e44ad"><strong>📚 Theme:</strong> Probability distributions, CDFs, Bernoulli , Binomial & Poisson distributions, expectation and variance.</span>
+|Attempt|~Time taken|Explanation|
+| ------ | -------- |---------- |
+|1|1hr 25min|1st attempt, used AI to understand the work|
+|2|50min|Went back to formulas, no AI was used|
+||||
 
 ---
 
