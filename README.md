@@ -202,8 +202,8 @@ Understanding the mathematics behind Data Science allows me to:
   |03/10/26||15|Optimization Techniques; Practice on Formulating Linear Programming Problem (LPP), Simplex Iteration, Solving LPP using Graphs|
   |05/10/26|6|16|Analytical and Computational Foundation; Practical Practice Questions|
   |06/10/26||17|Overview on content covered in Probability and Statistics 2|
-  |||||
-  |||||
+  |07/10/26||18|2nd attempt at Practice 2 ; Probability and Statistics 2 , scored 14/20 (yikes)|
+  |08/10/26|7|19|Overview on Practice 2 ; Probability and Statistics 2 , Optimization techniques|
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
