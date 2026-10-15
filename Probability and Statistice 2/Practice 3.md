@@ -1,4 +1,8 @@
-# 🎲📚 Probability & Statistics Answers 🇨🇳🐼
+<div align="center">
+  
+  <h1> 📚 Practice 3: Probability & Statistics Answers 🐼</h1>
+  
+</div>
 
 > 恭喜! (*Gōngxǐ!*) Let's conquer probability and statistics! ✨
 
