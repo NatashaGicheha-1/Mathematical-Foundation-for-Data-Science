@@ -187,8 +187,7 @@ Understanding the mathematics behind Data Science allows me to:
   ||1|1|Created Differential Equations Repository with a detailed README file.|
   |||2|Wrote down learning experience and topics I covered in Numerical Analysis.|
   |||3|Modified Differential Equations Repository to Mathematics in Data Science and Analytics.|
-  |||Planned what Mathematics in Data Science and Analytics will entail in README file.|
-  ||2|4|Find out more on MATLAB.|
+  ||2|4|Planned what Mathematics in Data Science and Analytics will entail in README file. Find out more on MATLAB.|
   |||5|Theory on Introduction to Optimization Techniques.|
   |||6|Review on Introduction.|
   ||3|7|Learnt topic 2-Model, Did a quiz on Introduction and Model for better understanding.|
@@ -204,6 +203,10 @@ Understanding the mathematics behind Data Science allows me to:
   |06/10/26||17|Overview on content covered in Probability and Statistics 2|
   |07/10/26||18|2nd attempt at Practice 2 ; Probability and Statistics 2 , scored 14/20 (yikes)|
   |08/10/26|7|19|Overview on Practice 2 ; Probability and Statistics 2 , Optimization techniques|
+  |15/10/26||20|Its been so long!!!!!!, Probability and Statistics 2, Revision on Quiz 1, Goal = score everything in Midsem|
+  |||||
+  |||||
+  
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
