@@ -204,7 +204,7 @@ Understanding the mathematics behind Data Science allows me to:
   |07/10/26||18|2nd attempt at Practice 2 ; Probability and Statistics 2 , scored 14/20 (yikes)|
   |08/10/26|7|19|Overview on Practice 2 ; Probability and Statistics 2 , Optimization techniques|
   |15/10/26||20|Its been so long!!!!!!, Probability and Statistics 2, Revision on Quiz 1, Goal = score everything in Midsem|
-  |||||
+  |17/10/26||21|Midsem Exam preparation;Practice 4; All topics; Probability and Statistics 2|
   |||||
   
 ---
