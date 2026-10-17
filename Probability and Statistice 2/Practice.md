@@ -599,9 +599,375 @@ P(Z > 2)
 > *"To learn and practice what is learned, is that not a pleasure?"* 📚✨
 
 🐼 加油! (*Jiāyóu!*) Keep practicing and you'll master probability in no time! 🎲🇨🇳
+/ You’ve got this! 💪
 
- 
+---
+-----
+
+ <div align="center">
+  
+  <h1> 🎉 Practice 3 🎉 </h1>
+  
+</div>
 
 
 
- / You’ve got this! 💪
+> **加油！ (Jiāyóu! - Keep going / Add oil!)** 🚀  
+> 📖 *"千里之行，始于足下。" (A journey of a thousand miles begins with a single step.)* 🐾
+
+## 🔹 Section 1: Classification & Core Concepts (Week 1) 🎈
+
+### ❓ Question 1: Classification of Random Variables 🚗⏱️
+Classify each of the following random variables as **discrete** or **continuous** and justify your answer[cite: 10]:
+
+1. **The number of cars passing through a toll gate in one hour**[cite: 10]
+   * 💡 **Answer:** **Discrete** 🔢[cite: 5, 10]
+   * 📝 **Explanation:** You count the number of cars (0, 1, 2, ...)[cite: 5]. Countable values make it discrete[cite: 5].
+
+2. **The time it takes for a computer to process a task**[cite: 10]
+   * 💡 **Answer:** **Continuous** ⏱️[cite: 5, 10]
+   * 📝 **Explanation:** Time is measured on a continuous scale and can take any decimal value (e.g., 1.23 seconds)[cite: 5].
+
+3. **The exact volume of water in a reservoir**[cite: 10]
+   * 💡 **Answer:** **Continuous** 🌊[cite: 5, 10]
+   * 📝 **Explanation:** Volume must be measured and takes values in a continuous range[cite: 5].
+
+4. **The number of defective items in a batch of 100 products**[cite: 10]
+   * 💡 **Answer:** **Discrete** 📦[cite: 5, 10]
+   * 📝 **Explanation:** Countable whole numbers from 0 to 100[cite: 5].
+
+---
+
+### ❓ Question 2: Continuous PDF & CDF Properties 📐
+A continuous random variable X has the following Probability Density Function (PDF)[cite: 12]:
+f(x) = kx for 0 < x < 2, and 0 otherwise[cite: 12]
+
+#### 1. Find the value of k[cite: 12]:
+* 🧮 **Calculation:** Total area under the PDF must equal 1[cite: 8, 15]:
+  Integral from -infinity to infinity of f(x) dx = Integral from 0 to 2 of kx dx = 1[cite: 8, 12, 15]
+  [kx^2 / 2] from 0 to 2 = k(2)^2 / 2 - 0 = 2k = 1 => k = 1/2[cite: 9, 12, 15]
+* 💡 **Answer:** k = 1/2 (or 0.5)[cite: 9, 12]
+
+#### 2. Find P(X < 1)[cite: 12]:
+* 🧮 **Calculation:** Integrate f(x) from 0 to 1[cite: 8, 9, 15]:
+  P(X < 1) = Integral from 0 to 1 of (1/2)x dx = [x^2 / 4] from 0 to 1 = 1^2 / 4 - 0 = 1/4[cite: 8, 9, 12, 15]
+* 💡 **Answer:** P(X < 1) = 1/4 = 0.25[cite: 8, 9, 12]
+
+#### 3. Find P(0.5 < X < 1.5)[cite: 12]:
+* 🧮 **Calculation:** Integrate f(x) from 0.5 to 1.5[cite: 8, 9, 15]:
+  P(0.5 < X < 1.5) = Integral from 0.5 to 1.5 of (1/2)x dx = [x^2 / 4] from 0.5 to 1.5 = (1.5)^2 / 4 - (0.5)^2 / 4 = (2.25 - 0.25) / 4 = 2/4 = 1/2[cite: 8, 9, 12, 15]
+* 💡 **Answer:** P(0.5 < X < 1.5) = 1/2 = 0.5[cite: 8, 9, 12]
+
+#### 4. Find the Cumulative Distribution Function (CDF) F(x)[cite: 12]:
+* 🧮 **Calculation:** Integrate f(t) from -infinity to x[cite: 8, 9, 15]:
+  * For x <= 0: F(x) = 0[cite: 9]
+  * For 0 < x < 2: F(x) = Integral from 0 to x of (1/2)t dt = [t^2 / 4] from 0 to x = x^2 / 4[cite: 9, 15]
+  * For x >= 2: F(x) = 1[cite: 9]
+* 💡 **Answer:**[cite: 9]
+  F(x) = 0 for x <= 0
+  F(x) = x^2 / 4 for 0 < x < 2
+  F(x) = 1 for x >= 2[cite: 9]
+
+---
+
+### ❓ Question 3: Step Function CDF to PMF 🪜
+The Cumulative Distribution Function (CDF) of a discrete random variable X is given by[cite: 11]:
+F(x) = 0 for x < 1
+F(x) = 0.2 for 1 <= x < 2
+F(x) = 0.3 for 2 <= x < 3
+F(x) = 0.8 for 3 <= x < 4
+F(x) = 1 for x >= 4[cite: 11]
+
+#### 1. Find the Probability Mass Function (PMF) p(x)[cite: 11]:
+* 🧮 **Calculation:** Calculate jump sizes at discrete points[cite: 6, 10, 11]:
+  * p(1) = F(1) - F(1^-) = 0.2 - 0 = 0.2[cite: 6, 11]
+  * p(2) = F(2) - F(2^-) = 0.3 - 0.2 = 0.1[cite: 6, 11]
+  * p(3) = F(3) - F(3^-) = 0.8 - 0.3 = 0.5[cite: 6, 11]
+  * p(4) = F(4) - F(4^-) = 1.0 - 0.8 = 0.2[cite: 6, 11]
+* 💡 **Answer:**[cite: 6, 11]
+  p(1) = 0.2, p(2) = 0.1, p(3) = 0.5, p(4) = 0.2[cite: 6, 11]
+
+#### 2. Find P(X <= 2)[cite: 11]:
+* 🧮 **Calculation:** Directly read from CDF at x = 2[cite: 7, 11]:
+  P(X <= 2) = F(2) = 0.3[cite: 7, 11]
+* 💡 **Answer:** 0.3[cite: 11]
+
+#### 3. Find P(1 < X <= 3)[cite: 11]:
+* 🧮 **Calculation:** 
+  P(1 < X <= 3) = F(3) - F(1) = 0.8 - 0.2 = 0.6[cite: 6, 11, 15]
+  (Or sum probabilities: p(2) + p(3) = 0.1 + 0.5 = 0.6)[cite: 6, 11]
+* 💡 **Answer:** 0.6[cite: 11]
+
+---
+
+> 🌟 *"学而不思则罔，思而不学则殆。" (Learning without thought is labor lost; thought without learning is perilous.)* — Confucius 📜
+
+---
+
+## 🔹 Section 2: Expectation & Variance (Week 2) ⚖️
+
+### ❓ Question 4: PMF Calculations 🧮
+A discrete random variable X has PMF[cite: 13]:
+p(x) = x / 10 for x = 1, 2, 3, 4[cite: 13]
+
+#### 1. Verify that this is a valid PMF[cite: 13]:
+* 🧮 **Calculation:** Sum all probabilities[cite: 6, 13]:
+  Sum of p(x) = 1/10 + 2/10 + 3/10 + 4/10 = 10/10 = 1[cite: 6, 13]
+* 💡 **Answer:** Valid PMF because all p(x) >= 0 and sum of p(x) = 1[cite: 6, 13].
+
+#### 2. Find E(X)[cite: 13]:
+* 🧮 **Calculation:**[cite: 18, 20]
+  E(X) = Sum of x * p(x) = 1(1/10) + 2(2/10) + 3(3/10) + 4(4/10) = (1 + 4 + 9 + 16) / 10 = 30 / 10 = 3[cite: 18, 20]
+* 💡 **Answer:** E(X) = 3[cite: 18]
+
+#### 3. Find Var(X) and SD(X)[cite: 13]:
+* 🧮 **Calculation:**[cite: 18, 24, 25]
+  E(X^2) = Sum of x^2 * p(x) = 1^2(1/10) + 2^2(2/10) + 3^2(3/10) + 4^2(4/10) = (1 + 8 + 27 + 64) / 10 = 100 / 10 = 10[cite: 18, 22]
+  Var(X) = E(X^2) - [E(X)]^2 = 10 - 3^2 = 10 - 9 = 1[cite: 18, 24]
+  SD(X) = sqrt(Var(X)) = sqrt(1) = 1[cite: 18, 25]
+* 💡 **Answer:** Var(X) = 1, SD(X) = 1[cite: 18]
+
+#### 4. Find E(2X - 3) and Var(2X - 3)[cite: 13]:
+* 🧮 **Calculation:** Use linear properties[cite: 18, 22, 25]:
+  E(2X - 3) = 2E(X) - 3 = 2(3) - 3 = 3[cite: 18, 22]
+  Var(2X - 3) = 2^2 * Var(X) = 4(1) = 4[cite: 18, 25]
+* 💡 **Answer:** E(2X - 3) = 3, Var(2X - 3) = 4[cite: 18]
+
+---
+
+### ❓ Question 5: PMF Constant c 🔍
+A discrete random variable X has PMF p(x) = c(x^2 + 1) for x = 0, 1, 2[cite: 13].
+
+#### 1. Find the value of c[cite: 13]:
+* 🧮 **Calculation:**[cite: 6, 13]
+  Sum of p(x) = c(0^2 + 1) + c(1^2 + 1) + c(2^2 + 1) = c(1) + c(2) + c(5) = 8c = 1 => c = 1/8[cite: 6, 13]
+* 💡 **Answer:** c = 1/8[cite: 6, 13]
+
+#### 2. Find E(X)[cite: 13]:
+* 🧮 **Calculation:**[cite: 18, 20]
+  E(X) = 0(1/8) + 1(2/8) + 2(5/8) = (0 + 2 + 10) / 8 = 12 / 8 = 1.5[cite: 18, 20]
+* 💡 **Answer:** E(X) = 1.5 (or 3/2)[cite: 18]
+
+#### 3. Find Var(X)[cite: 13]:
+* 🧮 **Calculation:**[cite: 18, 24]
+  E(X^2) = 0^2(1/8) + 1^2(2/8) + 2^2(5/8) = (0 + 2 + 20) / 8 = 22 / 8 = 2.75[cite: 18, 22]
+  Var(X) = E(X^2) - [E(X)]^2 = 2.75 - (1.5)^2 = 2.75 - 2.25 = 0.5[cite: 18, 24]
+* 💡 **Answer:** Var(X) = 0.5 (or 1/2)[cite: 18]
+
+---
+
+### ❓ Question 6: Function of Random Variable 📊
+A discrete random variable X has PMF given by[cite: 14]:
+
+x = -2, -1, 0, 1, 2
+p(x) = 0.1, 0.2, 0.3, 0.2, 0.2[cite: 14]
+
+#### 1. Find E(X)[cite: 14]:
+* 🧮 **Calculation:**[cite: 14, 18, 20]
+  E(X) = (-2)(0.1) + (-1)(0.2) + (0)(0.3) + (1)(0.2) + (2)(0.2) = -0.2 - 0.2 + 0 + 0.2 + 0.4 = 0.2[cite: 14, 18, 20]
+* 💡 **Answer:** E(X) = 0.2[cite: 14, 18]
+
+#### 2. Find E(X^2)[cite: 14]:
+* 🧮 **Calculation:**[cite: 14, 18, 22]
+  E(X^2) = (-2)^2(0.1) + (-1)^2(0.2) + (0)^2(0.3) + (1)^2(0.2) + (2)^2(0.2)[cite: 14, 18, 22]
+  E(X^2) = 4(0.1) + 1(0.2) + 0 + 1(0.2) + 4(0.2) = 0.4 + 0.2 + 0 + 0.2 + 0.8 = 1.6[cite: 14, 18, 22]
+* 💡 **Answer:** E(X^2) = 1.6[cite: 14, 18]
+
+#### 3. Find E(2X^2 + 3X - 1)[cite: 14]:
+* 🧮 **Calculation:** Apply expectation linearity[cite: 18, 22]:
+  E(2X^2 + 3X - 1) = 2E(X^2) + 3E(X) - 1 = 2(1.6) + 3(0.2) - 1 = 3.2 + 0.6 - 1 = 2.8[cite: 18, 22]
+* 💡 **Answer:** 2.8[cite: 14, 18]
+
+---
+
+### ❓ Question 7: Linear Properties 🔄
+Given E(X) = 5 and Var(X) = 4[cite: 14]:
+
+1. **E(3X + 2)**[cite: 14]
+   * 🧮 **Calculation:** 3E(X) + 2 = 3(5) + 2 = 17[cite: 18, 22]
+   * 💡 **Answer:** 17[cite: 18]
+
+2. **Var(3X + 2)**[cite: 14]
+   * 🧮 **Calculation:** 3^2 Var(X) = 9(4) = 36[cite: 18, 25]
+   * 💡 **Answer:** 36[cite: 18]
+
+3. **E(-2X + 10)**[cite: 14]
+   * 🧮 **Calculation:** -2E(X) + 10 = -2(5) + 10 = 0[cite: 18, 22]
+   * 💡 **Answer:** 0[cite: 18]
+
+4. **Var(-2X + 10)**[cite: 14]
+   * 🧮 **Calculation:** (-2)^2 Var(X) = 4(4) = 16[cite: 18, 25]
+   * 💡 **Answer:** 16[cite: 18]
+
+5. **SD(2X - 1)**[cite: 14]
+   * 🧮 **Calculation:** |2| * SD(X) = 2 * sqrt(4) = 2(2) = 4[cite: 18, 25]
+   * 💡 **Answer:** 4[cite: 18]
+
+---
+
+### ❓ Question 8: Infinite Geometric PMF ♾️
+A discrete random variable X has PMF p(x) = 1 / (2^x) for x = 1, 2, 3, ...[cite: 15]
+
+#### 1. Find E(X)[cite: 15]:
+* 🧮 **Calculation:** Use series formula Sum_{k=1}^infinity k * r^k = r / (1 - r)^2 with r = 1/2[cite: 18, 29]:
+  E(X) = (1/2) / (1 - 1/2)^2 = (1/2) / (1/4) = 2[cite: 18, 29]
+* 💡 **Answer:** E(X) = 2[cite: 18, 29]
+
+#### 2. Find E(X^2)[cite: 15]:
+* 🧮 **Calculation:** Use series formula Sum_{k=1}^infinity k^2 * r^k = r(1 + r) / (1 - r)^3 with r = 1/2[cite: 18, 29]:
+  E(X^2) = (1/2)(1 + 1/2) / (1 - 1/2)^3 = (1/2)(3/2) / (1/8) = (3/4) / (1/8) = 6[cite: 18, 29]
+* 💡 **Answer:** E(X^2) = 6[cite: 18, 29]
+
+#### 3. Find Var(X)[cite: 15]:
+* 🧮 **Calculation:**[cite: 18, 24, 29]
+  Var(X) = E(X^2) - [E(X)]^2 = 6 - (2)^2 = 6 - 4 = 2[cite: 18, 24, 29]
+* 💡 **Answer:** Var(X) = 2[cite: 18, 29]
+
+---
+
+> 🌈 *"熟能生巧。" (Practice makes perfect.)* 🏋️‍♂️
+
+---
+
+## 🔹 Section 3: Special Probability Distributions (Week 3) 🎯
+
+### ❓ Question 9: Single Trial Model 🪙
+A biased coin has a 60% chance of landing on heads (p = 0.6) tossed once[cite: 20]. X = 1 if heads, X = 0 if tails[cite: 20].
+
+#### 1. Write down the PMF of X[cite: 20]:
+* 💡 **Answer:** Bernoulli PMF[cite: 26, 42]:
+  p(x) = (0.6)^x * (0.4)^(1-x) for x in {0, 1}[cite: 26, 42]
+
+#### 2. Find E(X)[cite: 20]:
+* 🧮 **Calculation:** E(X) = p = 0.6[cite: 26, 42, 43]
+* 💡 **Answer:** 0.6[cite: 20, 26]
+
+#### 3. Find Var(X)[cite: 20]:
+* 🧮 **Calculation:** Var(X) = p(1 - p) = 0.6(0.4) = 0.24[cite: 26, 43]
+* 💡 **Answer:** 0.24[cite: 20, 26]
+
+---
+
+### ❓ Question 10: Fixed Number of Independent Trials 🎲
+A fair die is rolled 6 times (n = 6, p = 1/6)[cite: 20]. X = number of 6s[cite: 20].
+
+#### 1. Identify model & parameters[cite: 20]:
+* 💡 **Answer:** Binomial distribution with parameters n = 6 and p = 1/6[cite: 20, 26, 45].
+
+#### 2. Find P(X = 2)[cite: 20]:
+* 🧮 **Calculation:**[cite: 26, 45]
+  P(X = 2) = (6 choose 2) * (1/6)^2 * (5/6)^4 = 15 * (1/36) * (625/1296) = 9375 / 46656 = 0.2009[cite: 26, 45, 46]
+* 💡 **Answer:** approximately 0.2009[cite: 26]
+
+#### 3. Find P(X <= 1)[cite: 20]:
+* 🧮 **Calculation:**[cite: 26, 45]
+  P(X = 0) = (6 choose 0) * (1/6)^0 * (5/6)^6 = 15625 / 46656 = 0.3349[cite: 26, 45, 46]
+  P(X = 1) = (6 choose 1) * (1/6)^1 * (5/6)^5 = 6 * (1/6) * (3125/7776) = 0.4019[cite: 26, 45, 46]
+  P(X <= 1) = 0.3349 + 0.4019 = 0.7368[cite: 26, 45]
+* 💡 **Answer:** approximately 0.7368[cite: 26]
+
+#### 4. Find Mean & Variance[cite: 20]:
+* 🧮 **Calculation:**[cite: 26, 47]
+  E(X) = np = 6(1/6) = 1[cite: 26, 47]
+  Var(X) = np(1 - p) = 6(1/6)(5/6) = 5/6 = 0.8333[cite: 26, 47]
+* 💡 **Answer:** E(X) = 1, Var(X) = 5/6[cite: 20, 26]
+
+---
+
+### ❓ Question 11: Multiple Choice Guessing 📝
+10 questions, 4 options per question (n = 10, p = 0.25)[cite: 20].
+
+#### 1. Find P(X = 5)[cite: 20]:
+* 🧮 **Calculation:**[cite: 26, 45]
+  P(X = 5) = (10 choose 5) * (0.25)^5 * (0.75)^5 = 252 * 0.0009765 * 0.23730 = 0.0584[cite: 26, 45, 46]
+* 💡 **Answer:** approximately 0.0584[cite: 26]
+
+#### 2. Find P(X <= 2)[cite: 21]:
+* 🧮 **Calculation:**[cite: 26, 45]
+  * P(X = 0) = (0.75)^10 = 0.0563[cite: 26, 45]
+  * P(X = 1) = 10(0.25)(0.75)^9 = 0.1877[cite: 26, 45]
+  * P(X = 2) = 45(0.25)^2(0.75)^8 = 0.2816[cite: 26, 45]
+  * P(X <= 2) = 0.0563 + 0.1877 + 0.2816 = 0.5256[cite: 26, 45]
+* 💡 **Answer:** approximately 0.5256[cite: 26]
+
+#### 3. Find E(X) and SD(X)[cite: 21]:
+* 🧮 **Calculation:**[cite: 26, 47]
+  E(X) = np = 10(0.25) = 2.5[cite: 26, 47]
+  SD(X) = sqrt(np(1 - p)) = sqrt(10 * 0.25 * 0.75) = sqrt(1.875) = 1.3693[cite: 26, 47]
+* 💡 **Answer:** E(X) = 2.5, SD(X) = 1.3693[cite: 21, 26]
+
+---
+
+### ❓ Question 12: Rate Occurrences 📞
+Average rate lambda = 4 calls per minute[cite: 21].
+
+#### 1. Find P(X = 2)[cite: 21]:
+* 🧮 **Calculation:** Poisson formula P(X = x) = (e^(-lambda) * lambda^x) / x![cite: 26, 51]:
+  P(X = 2) = (e^(-4) * 4^2) / 2! = (0.018316 * 16) / 2 = 0.1465[cite: 26, 51]
+* 💡 **Answer:** approximately 0.1465[cite: 26]
+
+#### 2. Find P(X <= 1)[cite: 21]:
+* 🧮 **Calculation:**[cite: 26, 51]
+  * P(X = 0) = e^(-4) = 0.0183[cite: 26, 51]
+  * P(X = 1) = 4 * e^(-4) = 0.0733[cite: 26, 51]
+  * P(X <= 1) = 0.0183 + 0.0733 = 0.0916[cite: 26, 51]
+* 💡 **Answer:** approximately 0.0916[cite: 26]
+
+#### 3. State Mean & Variance[cite: 21]:
+* 🧮 **Calculation:** For Poisson, E(X) = Var(X) = lambda = 4[cite: 26, 52].
+* 💡 **Answer:** E(X) = 4, Var(X) = 4[cite: 21, 26]
+
+---
+
+### ❓ Question 13: Typos Count 📖
+Average rate lambda = 1.5 typos per page[cite: 21].
+
+#### 1. Find P(X = 0)[cite: 21]:
+* 🧮 **Calculation:** P(X = 0) = e^(-1.5) = 0.2231[cite: 26, 51]
+* 💡 **Answer:** approximately 0.2231[cite: 26]
+
+#### 2. Find P(X = 3)[cite: 21]:
+* 🧮 **Calculation:**[cite: 26, 51]
+  P(X = 3) = (e^(-1.5) * (1.5)^3) / 3! = (0.2231 * 3.375) / 6 = 0.1255[cite: 26, 51]
+* 💡 **Answer:** approximately 0.1255[cite: 26]
+
+#### 3. Find P(X >= 2)[cite: 21]:
+* 🧮 **Calculation:**[cite: 26, 51]
+  P(X = 1) = (e^(-1.5) * (1.5)^1) / 1! = 0.2231 * 1.5 = 0.3347[cite: 26, 51]
+  P(X >= 2) = 1 - [P(X = 0) + P(X = 1)] = 1 - (0.2231 + 0.3347) = 1 - 0.5578 = 0.4422[cite: 26, 51]
+* 💡 **Answer:** approximately 0.4422[cite: 26]
+
+---
+
+### ❓ Question 14: Poisson Approximation to Binomial 🔬
+Batch of n = 100 chips, defect rate p = 0.01[cite: 22].
+
+#### 1. Exact Distribution Model[cite: 22]:
+* 💡 **Answer:** Binomial distribution with parameters n = 100 and p = 0.01[cite: 22, 26, 45].
+
+#### 2. Limiting Approximation Calculation for P(X = 2)[cite: 22]:
+* 🧮 **Calculation:** Since n >= 20 and p <= 0.05, approximate using Poisson with lambda = np = 100(0.01) = 1[cite: 26, 56]:
+  P(X = 2) is approximately (e^(-1) * (1)^2) / 2! = 0.36788 / 2 = 0.1839[cite: 26, 51, 56]
+* 💡 **Answer:** approximately 0.1839[cite: 22, 26]
+
+---
+
+### ❓ Question 15: Identify Model & Parameters 🏷️
+
+1. **Whether a student passes an exam (pass/fail)**[cite: 22]
+   * 💡 **Model:** **Bernoulli Distribution** (p = probability of passing)[cite: 22, 25, 42]
+
+2. **Number of defective items in a sample of 20 with a 3% defect rate**[cite: 22]
+   * 💡 **Model:** **Binomial Distribution** (n = 20, p = 0.03)[cite: 22, 25, 45]
+
+3. **Number of emails received in a 30-min period (average 12 per hour)**[cite: 22]
+   * 💡 **Model:** **Poisson Distribution** (lambda = 6 emails per 30 minutes)[cite: 22, 25, 51]
+
+4. **Number of heads in 15 tosses of a fair coin**[cite: 22]
+   * 💡 **Model:** **Binomial Distribution** (n = 15, p = 0.5)[cite: 22, 25, 45]
+
+---
+
+> 🎉 *"坚持就是胜利。" (Perseverance leads to victory!)* 🏆  
+> 
+> You've got this! Keep practicing and shine bright in your Statistics course! 🌟✨
