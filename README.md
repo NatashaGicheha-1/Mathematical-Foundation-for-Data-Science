@@ -179,6 +179,7 @@ Understanding the mathematics behind Data Science allows me to:
 |Do projects on the 4 courses|Projects on the previous 5 courses|
 |Get more people interested in my work||
 ---
+
 ## 🚀 Learning Progress
 * Practice at least **3 times a week**.
 * Get a badge at Week 7.
@@ -206,7 +207,7 @@ Understanding the mathematics behind Data Science allows me to:
   |08/10/26|7|19|Overview on Practice 2 ; Probability and Statistics 2 , Optimization techniques|
   |15/10/26||20|Its been so long!!!!!!, Probability and Statistics 2, Revision on Quiz 1, Goal = score everything in Midsem|
   |17/10/26||21|Midsem Exam preparation;Practice 4; All topics; Probability and Statistics 2|
-  |18/10/26|8|22|Overview on Practice 4; Recap on formulas used in all topics, Found out how topics learnt are applicable to DSA; Probability and Statistics 2 |
+  |18/10/26|8|22|Overview on Practice 4; Recap on formulas used in all topics, Found out how topics learnt are applicable to DSA; Probability and Statistics 2, Assignment and Quiz Revision ; Analytical and Computational Foundation.|
   |||||
 ---
 
