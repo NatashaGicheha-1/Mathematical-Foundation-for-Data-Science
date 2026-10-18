@@ -109,9 +109,10 @@ Understanding the mathematics behind Data Science allows me to:
 | | Linear Systems:Iterative Methods (Jacobi Iteration, Gauss-Seidel Iteration) | Large-scale computations and machine learning optimization |
 | | Root-Finding Methods (Bisection, False Position, Newton-Raphson, Secant) | Optimization, parameter estimation, and nonlinear problem-solving |
 | | Numerical Solutions to Mathematical Problems | Scientific computing, simulations, and forecasting models |
-| **Probability and Statistics 2** |Random Variables: Discrete, Continuous| |
-| |Expected Value and Variance for Discrete Probability Distributions| |
-| |Discrete Distributions: Bernoulli - only one item, Binomial - 2/more items, Poisson - "average", Geometric, Normal | |
+| **Probability and Statistics 2** |Random Variables: Discrete, Continuous| Classifies data types (counts vs. measurements) for predictive algorithms. |
+| |Expected Value and Variance for Discrete Probability Distributions| Measures average expected outcomes and data dispersion/risk to evaluate model performance. |
+| |Discrete Distributions: Bernoulli - only one item, Binomial - 2/more items, Poisson - "average", Geometric - "until", Hypergeometric - "without replacement"|**Bernoulli**: Binary classification tasks (e.g., churn, click-through rates). **Binomial**: A/B testing and conversion tracking.  **Poisson**: Modeling rate and count data over time/space. **Geometric**: Survival & churn timing ("until" first success). **Hypergeometric**: Feature selection & enrichment ("without replacement") |
+| |Continuous Distributions:  Normal -Z score table, Uniform - outcomes are equally likely to occur |**Normal**: Hypothesis testing, confidence intervals, and regression error analysis. **Uniform**: Monte Carlo simulations, random sampling, and weight initialization. |
 | **Analytical and Computational Foundation** || |||
 | **Optimization Techniques**|Introduction to Optimization Techniques |Optimization minimizes loss functions in machine learning and forms the decision engine for prescriptive analytics like resource allocation and dynamic pricing.|
 | |Models: Iconic, Simulation, Mathematical|Iconic models visualize spatial data(location coordinates), Simulation models (like Monte Carlo) quantify risk under uncertainty, and Mathematical models drive algorithmic decisions like portfolio optimization. |
@@ -205,8 +206,8 @@ Understanding the mathematics behind Data Science allows me to:
   |08/10/26|7|19|Overview on Practice 2 ; Probability and Statistics 2 , Optimization techniques|
   |15/10/26||20|Its been so long!!!!!!, Probability and Statistics 2, Revision on Quiz 1, Goal = score everything in Midsem|
   |17/10/26||21|Midsem Exam preparation;Practice 4; All topics; Probability and Statistics 2|
+  |18/10/26|8|22|Overview on Practice 4; Recap on formulas used in all topics, Found out how topics learnt are applicable to DSA; Probability and Statistics 2 |
   |||||
-  
 ---
 
 * **🎯Great mathematicians are not those who never struggle, but those who keep solving one problem at a time.🎯**
