@@ -162,9 +162,9 @@ Understanding the mathematics behind Data Science allows me to:
 | Matrix Operations for Machine Learning | Linear Algebra |
 | Principal Component Analysis (PCA) | Linear Algebra |
 | Gradient Descent Visualization | Calculus |
-| Social Network Analysis | Discrete Mathematics |
+| Social Network Analysis ✅ | Discrete Mathematics |
 | Time Series Forecasting | Differential Equations |
-| Recommendation System Mathematics | Linear Algebra, Discrete Mathematics |
+| Recommendation System Mathematics ✅ | Linear Algebra, Discrete Mathematics |
 | Missing Data Estimation Using Interpolation| **Numerical Analysis** |
 | Numerical Optimization & Root-Finding for Machine Learning| Numerical Analysis |
 | Time-Series Forecasting and Error Analysis| Numerical Analysis |
@@ -208,6 +208,9 @@ Understanding the mathematics behind Data Science allows me to:
   |15/10/26||20|Its been so long!!!!!!, Probability and Statistics 2, Revision on Quiz 1, Goal = score everything in Midsem|
   |17/10/26||21|Midsem Exam preparation;Practice 4; All topics; Probability and Statistics 2|
   |18/10/26|8|22|Overview on Practice 4; Recap on formulas used in all topics, Found out how topics learnt are applicable to DSA; Probability and Statistics 2, Assignment and Quiz Revision ; Analytical and Computational Foundation.|
+  |23/10/26||23|Math Project, 2027 Election Campaign, matlab-code|
+  |24/10/2026||24|Finalised on Math Project; pushed:code, dataset used and visuals. wrote readme file and what the project is about|
+  |25/10/26|9|25|Midsem Revision, Optimization techniques, theory part|
   |||||
 ---
 
