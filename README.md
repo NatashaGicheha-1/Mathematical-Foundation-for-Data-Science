@@ -113,7 +113,14 @@ Understanding the mathematics behind Data Science allows me to:
 | |Expected Value and Variance for Discrete Probability Distributions| Measures average expected outcomes and data dispersion/risk to evaluate model performance. |
 | |Discrete Distributions: Bernoulli - only one item, Binomial - 2/more items, Poisson - "average", Geometric - "until", Hypergeometric - "without replacement"|**Bernoulli**: Binary classification tasks (e.g., churn, click-through rates). **Binomial**: A/B testing and conversion tracking.  **Poisson**: Modeling rate and count data over time/space. **Geometric**: Survival & churn timing ("until" first success). **Hypergeometric**: Feature selection & enrichment ("without replacement") |
 | |Continuous Distributions:  Normal -Z score table, Uniform - outcomes are equally likely to occur |**Normal**: Hypothesis testing, confidence intervals, and regression error analysis. **Uniform**: Monte Carlo simulations, random sampling, and weight initialization. |
-| **Analytical and Computational Foundation** || |||
+| **Analytical and Computational Foundation** | Introduction to MATLAB environment, desktop windows, installation, documentation tools (help, doc, lookfor), and MATLAB’s role as a matrix-based numerical computing platform. |  Provides the computational foundation for data analysis workflows, enabling efficient numerical computation, visualization, and problem-solving in later analytics and modeling tasks. |
+|| Variables, Mathematical expressions, Arrays, Matrices, Indexing, Matrix operations, and Solving Systems of Linear Equations using MATLAB commands and solvers.| Data science relies heavily on vectors, matrices, and linear algebra; these concepts support data representation, transformations, optimization, and machine learning algorithms. |
+|| Introduces Scripts (M-files), Relational operators, Decision-Making structures (if/switch), Loops (for/while), Debugging, Timing code, and Program automation.| Automation, iterative computation, and logical decision-making are essential for building scalable data-processing pipelines, simulations, and analytical algorithms.|
+|| User-defined functions, subfunctions, nested functions, function handles, anonymous functions, error handling, warnings, and try-catch structures.| Supports modular, reusable, and robust code development while enabling integration with analytical solvers, optimization routines, and advanced computational models.|
+|| 2D and 3D plotting, curve visualization, surface plots, contour plots, plotting multiple datasets, and function-based graphics using function handles.| Transforms numerical results into visual insights, facilitating exploratory data analysis, trend identification, model validation, and communication of analytical findings.|
+|| Graphics customization through handles and properties, figure saving/exporting, subplot creation, multi-panel visualizations, and animation techniques.| Enhances presentation-quality reporting, dashboard-style comparisons, interactive visual analytics, and dynamic visualization of evolving data and simulation results.|
+||||
+||||
 | **Optimization Techniques**|Introduction to Optimization Techniques |Optimization minimizes loss functions in machine learning and forms the decision engine for prescriptive analytics like resource allocation and dynamic pricing.|
 | |Models: Iconic, Simulation, Mathematical|Iconic models visualize spatial data(location coordinates), Simulation models (like Monte Carlo) quantify risk under uncertainty, and Mathematical models drive algorithmic decisions like portfolio optimization. |
 | |Linear Programming; Formulating Linear Programming Problem (LPP), Solving LPP graphically|LPP formulates business constraints into linear equations to optimize objectives like ad spend allocation, while the graphical method provides an intuitive 2-variable visual model for feasibility regions.|
@@ -211,6 +218,8 @@ Understanding the mathematics behind Data Science allows me to:
   |23/10/26||23|Math Project, 2027 Election Campaign, matlab-code|
   |24/10/2026||24|Finalised on Math Project; pushed:code, dataset used and visuals. wrote readme file and what the project is about|
   |25/10/26|9|25|Midsem Revision, Optimization techniques, theory part|
+  |26/10/26||26|Midsem Revision, Optimization techniques, Theory + Questions|
+  |27/10/26||27|Midsem Exam: Optimization techniques , Data Structures and Algorithms|
   |||||
 ---
 
