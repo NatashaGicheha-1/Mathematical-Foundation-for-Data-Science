@@ -220,8 +220,8 @@ Understanding the mathematics behind Data Science allows me to:
   |25/10/26|9|25|Midsem Revision, Optimization techniques, theory part|
   |26/10/26||26|Midsem Revision, Optimization techniques, Theory + Questions|
   |27/10/26||27|Briefly revised for Optimization techniques and Data Structures and Algorithms before exam, Midsem Exam: Optimization techniques , Data Structures and Algorithms|
-  |28/10/26|10|28|Matlab introduction, !", Consider if this project is fulfilling its main objective"|
-  |30/10/26||29|MTH1060 Assignment, Add file on Matlab introduction and review of the work, Similarities and Differences between Matlab and C++|
+  |28/10/26|10|28|Matlab introduction - Explaining what MATLAB is in simple terms, Uses of MATLAB with explanation|
+  |30/10/26||29|"!MTH1060 Assignment, Consider if this project is fulfilling its main objective", Add file on Matlab introduction and review of the work, Learnt Similarities and Differences between Matlab and C++ and added it to file|
   |||||
   |||||
 ---
