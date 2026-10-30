@@ -49,12 +49,15 @@ Understanding the mathematics behind Data Science allows me to:
 
 | Course | Description | Why It Matters in Data Science |
 |----------|------------|-------------------------------|
-| **College Algebra** | Functions, equations, logarithms, and mathematical modeling | Provides the foundation for understanding relationships between variables and building predictive models |
-| **Linear Algebra** | Vectors, matrices, eigenvalues, and vector spaces | Forms the backbone of machine learning, deep learning, and data representation |
-| **Discrete Mathematics** | Logic, sets, combinatorics, and graph theory | Supports algorithms, databases, networks, and computational thinking |
-| **Calculus** | Limits, derivatives, integrals, and multivariable calculus | Enables optimization techniques used to train machine learning models |
-| **Differential Equations** | Mathematical modeling of dynamic systems | Useful for forecasting, simulations, and time-dependent phenomena |
-| **Numerical Analysis** | Computational methods for solving mathematical problems | Provides efficient techniques for large-scale computation and optimization |
+| College Algebra | Study of functions, equations, inequalities, logarithms, polynomials, and mathematical modeling techniques used to describe relationships between variables. | Provides the mathematical foundation for analyzing data relationships, building predictive models, understanding growth trends, and interpreting quantitative results. |
+| Linear Algebra | Study of vectors, matrices, systems of linear equations, eigenvalues, eigenvectors, and vector spaces. | Forms the backbone of machine learning, deep learning, recommendation systems, image processing, and large-scale data representation. |
+| Discrete Mathematics | Focuses on logic, sets, relations, functions, combinatorics, graph theory, and mathematical reasoning. | Supports algorithm design, database systems, network analysis, cryptography, and computational thinking required in data science workflows. |
+| Calculus | Study of limits, derivatives, integrals, and multivariable functions used to analyze change and optimization problems. | Enables optimization techniques used in machine learning, gradient descent, neural networks, predictive modeling, and statistical learning. |
+| Differential Equations | Study of equations that describe how quantities change over time and interact within dynamic systems. | Essential for forecasting, simulations, population modeling, epidemiology, financial modeling, and time-dependent data analysis. |
+| Numerical Analysis | Study of computational methods for approximating solutions to mathematical problems that are difficult or impossible to solve analytically. | Provides efficient techniques for large-scale computation, optimization, simulation, matrix operations, and scientific data analysis. |
+| Optimization Techniques | Study of mathematical methods used to find the best solution among many feasible alternatives. Topics include Linear Programming, Transportation Models, Assignment Problems, Integer Programming, Goal Programming, Network Models, and Optimization Algorithms. | Helps data scientists make optimal decisions under constraints, such as minimizing costs, maximizing profits, allocating resources efficiently, scheduling operations, improving supply chain logistics, and tuning machine learning models for better performance. |
+| Analytical and Computational Foundation | Focuses on computational thinking, algorithm design, mathematical modeling, problem-solving, numerical methods, programming concepts, and tools such as MATLAB for analyzing and solving real-world problems. | Forms the backbone of data science by developing the ability to structure problems, design algorithms, process data, build analytical models, perform simulations, and create computational solutions that support data-driven decision making. |
+|||
 
 ---
 
@@ -177,6 +180,10 @@ Understanding the mathematics behind Data Science allows me to:
 | Time-Series Forecasting and Error Analysis| Numerical Analysis |
 
 ---
+
+## Projects done that include math
+- Mau Forest Data Analysis
+- 2027 Election Analysis
 
 ## 🤓 Goals
 |Current Goals|Future Goals|
